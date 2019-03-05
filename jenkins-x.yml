@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: team1-staging
+  valuefrom: null
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: team1-staging
+    valuefrom: null
